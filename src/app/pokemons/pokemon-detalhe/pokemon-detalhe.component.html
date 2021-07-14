@@ -1,0 +1,8 @@
+<p>pokemon-detalhe works!</p>
+<div class="card" *ngIf="pokemonDetalhe">
+  <div class="card-body">
+    <p>Nome: {{pokemonDetalhe.name}}</p>
+    <p>Peso: {{pokemonDetalhe.weight}}</p>
+    <img [src]="pokemonDetalhe?.sprites.front_default" width="200px" alt="" srcset="">
+  </div>
+</div>
